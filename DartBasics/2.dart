@@ -9,13 +9,13 @@
 void main(List<String> args) {
     
     //cach khai bao bien co the null trong 
-    String ?name = null;
+    // String ?name = null;
 
-    name = "hwa";
+    // name = "hwa";
 
-    if(name != null){
-        print(name);
-    }
+    // if(name != null){
+    //     print(name);
+    // }
 
 
     // int ?age = 30;
