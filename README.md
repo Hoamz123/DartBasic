@@ -1,1 +1,1 @@
-Two-day challenge: Learn the Dart language syntax in just two days.
+Tôi làm được, bạn cũng thử xem.
