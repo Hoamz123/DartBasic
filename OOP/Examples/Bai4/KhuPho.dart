@@ -45,5 +45,4 @@ class Khupho {
         return _dsHoGiaDinh.any((hgd) => 
                 hgd.cacCaNhan.any((user) => user.soCC == soCC));
     }
-    
 }
