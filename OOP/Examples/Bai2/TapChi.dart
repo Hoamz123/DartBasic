@@ -1,6 +1,3 @@
-
-
-
 import 'TaiLieu.dart';
 
 class Tapchi extends Tailieu{
