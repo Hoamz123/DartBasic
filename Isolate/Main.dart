@@ -1,5 +1,4 @@
 import 'dart:isolate';
-import 'Person.dart';
 import 'isolate_entry.dart.dart';
 
 Future<void> main(List<String> args) async {

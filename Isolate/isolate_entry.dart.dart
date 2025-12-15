@@ -2,7 +2,6 @@
 import 'dart:isolate';
 
 import 'Message.dart';
-import 'Person.dart';
 
 void isolate(Map<String,dynamic> data){
     SendPort sendPort = data["sendPort"] as SendPort;
