@@ -53,13 +53,15 @@ class EManager {
     }
 
 
+
+    //check input email
     void _inputBirthDay(Employee empl) {
         while (true) {
             try {
                 stdout.write("Nhap BirthDay (dd/MM/yyyy): ");
                 empl.birthDay = stdin.readLineSync()!;
                 ValidatorException.validateBirthDay(empl.birthDay);
-                break;
+                break;//break khi nhap dung neu ko nhap dung thi nhap lai den dung
             } 
             catch (e) {
                 print(e);
