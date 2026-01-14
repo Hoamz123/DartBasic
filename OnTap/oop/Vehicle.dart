@@ -8,6 +8,9 @@ abstract class Vehicle {
   String get name => _name;
   int get year => _year;
 
+  //lay ra tuoi cua phuong tien nay
+  int get age => DateTime.now().year - _year;
+
   set name(String newName) => _name = newName;
   set year(int newYear) => _year = newYear;
 
